@@ -2,4 +2,4 @@ Simple extension permettant d'exécuter le fichier python ouvert dans une consol
 
 Cette extension est activée automatiquement pour les fichiers dont l'extension est `.py` et qui sont ouverts dans un éditeur de texte.
 
-Cliquer sur le bouton $(vm-running)) "Run in interactive console" situé en haut à droite de l'éditeur de texte pour exécuter le fichier dans une console interactive.
+Cliquer sur le bouton $(vm-running) "Run in interactive console" situé en haut à droite de l'éditeur de texte pour exécuter le fichier dans une console interactive.
