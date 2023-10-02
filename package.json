@@ -4,7 +4,7 @@
     "publisher": "fabriceLALLEMAND",
     "license": "SEE LICENCE IN licence.txt",
     "description": "A vscode extension that adds a button to run the active python file in the interactive console",
-    "version": "0.0.2",
+    "version": "0.0.3",
     "engines": {
         "vscode": "^1.60.0"
     },
