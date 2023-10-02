@@ -13,6 +13,8 @@ function activate(context) {
             let fileBaseName = path.basename(fileName, '.py');
             // Get the file directory
             let fileDir = path.dirname(fileName);
+            // Save the file
+            editor.document.save();
             // Create a terminal
             let terminal = vscode.window.createTerminal('Python Interactive');
             // Send the command to the terminal
