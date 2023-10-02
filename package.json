@@ -40,5 +40,9 @@
         "tslint": "^6.1.3",
         "typescript": "^4.4.2",
         "vscode-test": "^1.6.2"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/fabricelallemand15/extension_vscode_REPL.git"
     }
 }
