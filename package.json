@@ -1,0 +1,44 @@
+{
+    "name": "run-python-file",
+    "displayName": "Run Python File",
+    "description": "A vscode extension that adds a button to run the active python file in the interactive console",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.60.0"
+    },
+    "main": "./extension.js",
+    "activationEvents": [
+        "*"
+    ],
+    "contributes": {
+        "commands": [
+            {
+                "command": "extension.runPythonFile",
+                "title": "Run in Interactive Console",
+                "description": "Run the active python file in the interactive console",
+                "icon": "$(vm-running)"
+            }
+        ],
+        "menus": {
+            "editor/title": [
+                {
+                    "command": "extension.runPythonFile",
+                    "when": "editorLangId == python",
+                    "group": "navigation"
+                }
+            ]
+        }
+    },
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "devDependencies": {
+        "@types/vscode": "^1.60.0",
+        "@types/glob": "^7.1.4",
+        "@types/mocha": "^9.0.0",
+        "@types/node": "^16.7.13",
+        "tslint": "^6.1.3",
+        "typescript": "^4.4.2",
+        "vscode-test": "^1.6.2"
+    }
+}
