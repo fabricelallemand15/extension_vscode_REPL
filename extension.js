@@ -18,7 +18,7 @@ function activate(context) {
             // Create a terminal
             let terminal = vscode.window.createTerminal('Python Interactive');
             // Send the command to the terminal
-            terminal.sendText(`python -i -c "from ${fileBaseName} import *"`);
+            terminal.sendText(`python -i -c "# -*- coding: utf-8 -*-\nfrom ${fileBaseName} import *"`);
             // Show the terminal
             terminal.show();
         }
